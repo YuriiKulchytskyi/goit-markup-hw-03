@@ -23,10 +23,6 @@ img {
     box-sizing: border-box;
 }
 
-.width {
-    width: 1158px;
-}
-
 nav {
     display: flex;
     align-items: center;
