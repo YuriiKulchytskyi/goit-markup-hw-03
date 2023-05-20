@@ -452,7 +452,7 @@ nav li a:focus {
 }
 
 .port {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     column-gap: 24px;
     flex-wrap: wrap;
