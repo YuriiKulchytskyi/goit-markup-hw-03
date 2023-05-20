@@ -11,11 +11,21 @@ body {
     letter-spacing: 0.02em;
 }
 
+img {
+    display: block;
+}
+
 .container {
-    width: 1440px;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
     box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
 }
 
 header {
@@ -24,6 +34,7 @@ header {
     position: relative;
     display: flex;
     box-sizing: border-box;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .logotype {
@@ -357,7 +368,7 @@ nav li a:focus {
 .type {
     border: 1px solid #E7E9FC;
 }
+
 .port-page {
     margin-top: 120px;
 }
-
