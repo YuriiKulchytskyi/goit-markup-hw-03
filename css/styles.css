@@ -17,7 +17,7 @@ img {
 
 .container {
     display: flex;
-    /* width: 1158px; */
+    width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
     box-sizing: border-box;
@@ -254,6 +254,10 @@ nav li a:focus {
     padding: 120px 0;
 }
 
+/* .info {
+
+} */
+
 .about-list {
     display: flex;
     gap: 24px;
@@ -360,6 +364,7 @@ nav li a:focus {
 
 .bottom {
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer {
@@ -384,6 +389,11 @@ nav li a:focus {
     letter-spacing: 0.02em;
     color: var(--dark);
     margin-left: 16px;
+    margin-bottom: 8px
+}
+
+.portfolio {
+    padding: 96px 0 120px;
 }
 
 .func {
@@ -396,7 +406,7 @@ nav li a:focus {
 
 .filters-button {
     /* height: 48px; */
-    padding: 12px 24px 12px 24px;
+    padding: 12px 24px;
     color: var(--brand-color);
     background-color: var(--light);
     border: 1px solid var(--accent);
@@ -409,11 +419,14 @@ nav li a:focus {
 }
 
 .buttons {
+    display: flex;
     margin-bottom: 72px;
-    width: 586px;
+    /* width: 586px;
     height: 61px;
     margin-left: 427px;
-    margin-top: 96px;
+    margin-top: 96px; */
+    gap: 24px;
+    justify-content: center;
 }
 
 .filters-button:hover,
@@ -421,6 +434,7 @@ nav li a:focus {
     background-color: var(--pressed-state);
     color: var(--white-background);
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .color-footer {
@@ -428,9 +442,23 @@ nav li a:focus {
 }
 
 .type {
+    width: calc((100% - 48px) / 3);
     border: 1px solid #E7E9FC;
 }
 
 .port-page {
     margin-top: 120px;
+}
+
+.port {
+    display: flex;
+    flex-wrap: wrap; 
+    column-gap: 24px; 
+    row-gap: 48px; 
+}
+
+.container-type {
+    padding: 32px 16px;
+    border: 1px solid var(--accent);
+    border-top: none; 
 }
