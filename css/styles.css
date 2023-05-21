@@ -355,7 +355,7 @@ nav li a:focus {
 .footer {
     /* display: inline-block; */
     background-color: var(--dark);
-    /* display: flex; */
+    display: flex;
     flex-direction: column;
     box-sizing: border-box;
     padding: 100px 0;
