@@ -368,7 +368,7 @@ footer a {
 }
 
 .bott {
-    /* display: inline-block; */
+    display: inline-block;
     margin-bottom: 16px;
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
