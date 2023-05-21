@@ -363,16 +363,7 @@ nav li a:focus {
     height: 312px;
 }
 
-footer a {
-    display: inline-block;
-}
-
-a {
-    display: inline-block;
-}
-
 .bott {
-    display: inline-block;
     margin-bottom: 16px;
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
@@ -382,6 +373,10 @@ a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);
+}
+
+.inline-block {
+    display: inline-block;
 }
 /* 
 .logo-footer {
