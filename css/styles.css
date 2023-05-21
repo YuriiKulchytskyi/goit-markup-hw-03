@@ -362,6 +362,9 @@ nav li a:focus {
     height: 312px;
 }
 
+.footer a {
+    display: inline-block;
+}
 
 .bott {
     margin-bottom: 16px;
