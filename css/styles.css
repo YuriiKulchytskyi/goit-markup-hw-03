@@ -362,8 +362,13 @@ nav li a:focus {
     height: 312px;
 }
 
+.bottom {
+    width: 264px;
+    height: 112px;
+}
+
 .bott {
-    /* margin-bottom: 16px; */
+    margin-bottom: 16px;
     /* margin-right: 76px; */
     display: inline-block;
     font-family: 'Raleway', sans-serif;
