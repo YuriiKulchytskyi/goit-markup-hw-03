@@ -375,12 +375,12 @@ nav li a:focus {
     text-transform: uppercase;
     color: var(--brand-color);
 }
-
+/* 
 .logo-footer {
-    /* display: inline-block; */
+    display: inline-block;
     margin-top: 0;
     color: var(--light);
-}
+} */
 
 .paragraph-footer {
     margin-left: 156px;
