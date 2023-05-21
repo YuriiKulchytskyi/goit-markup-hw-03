@@ -353,7 +353,7 @@ nav li a:focus {
 
 
 .footer {
-    display: inline-block;
+    /* display: inline-block; */
     background-color: var(--dark);
     /* display: flex; */
     flex-direction: column;
@@ -363,8 +363,12 @@ nav li a:focus {
     height: 312px;
 }
 
-.bott {
+footer a {
     display: inline-block;
+}
+
+.bott {
+    /* display: inline-block; */
     margin-bottom: 16px;
     margin-right: 76px;
     font-family: 'Raleway', sans-serif;
