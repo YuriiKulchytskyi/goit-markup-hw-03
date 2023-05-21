@@ -367,6 +367,10 @@ footer a {
     display: inline-block;
 }
 
+a {
+    display: inline-block;
+}
+
 .bott {
     display: inline-block;
     margin-bottom: 16px;
