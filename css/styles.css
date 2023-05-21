@@ -362,10 +362,6 @@ nav li a:focus {
     height: 312px;
 }
 
-.bottom {
-    width: 264px;
-    height: 112px;
-}
 
 .bott {
     margin-bottom: 16px;
@@ -391,7 +387,7 @@ nav li a:focus {
 } */
 
 .paragraph-footer {
-    margin-left: 156px;
+    /* margin-left: 156px; */
     max-width: 264px;
     height: 72px;
     color: var(--light);
