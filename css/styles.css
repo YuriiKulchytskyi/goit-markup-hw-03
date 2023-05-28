@@ -213,9 +213,9 @@ nav li a:focus {
 .main-text {
     max-width: 496px;
     height: 120px;
-    padding-top: 188px;
+    /* padding-top: 188px; */
     margin-top: 0;
-    margin-left: 472px;
+    margin-left: 331px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
@@ -228,7 +228,7 @@ nav li a:focus {
     display: block;
     min-width: 169px;
     height: 56px;
-    margin-left: 636px;
+    margin-left: 495px;
     /* margin-top: 48px; */
     background-color: var(--brand-color);
     color: var(--white-background);
@@ -281,7 +281,7 @@ nav li a:focus {
 }
 
 .paragraph {
-    width: 264px;
+    /* width: 264px; */
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -326,8 +326,10 @@ nav li a:focus {
 }
 
 .staff {
+    width: 1128px;
     display: flex;
     gap: 24px;
+    margin-bottom: 0;
 }
 
 .person {
@@ -347,6 +349,7 @@ nav li a:focus {
 }
 
 .worker {
+    margin-top: 0;
     text-align: center;
     margin-bottom: 8px
 }
@@ -359,7 +362,7 @@ nav li a:focus {
 .footer {
     background-color: var(--dark);
     display: flex;
-    flex-direction: column;
+    /* flex-direction: row; */
     box-sizing: border-box;
     padding: 100px 0;
     width: 100%;
@@ -373,7 +376,7 @@ nav li a:focus {
 .bott {
     margin-bottom: 16px;
     /* margin-right: 76px; */
-    display: inline-block;
+    /* display: inline-block; */
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -383,9 +386,9 @@ nav li a:focus {
     color: var(--brand-color);
 }
 
-.inline-block {
+/* .inline-block {
     display: inline-block;
-}
+} */
 /* 
 .logo-footer {
     display: inline-block;
