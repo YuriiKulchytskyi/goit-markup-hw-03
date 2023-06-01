@@ -516,7 +516,7 @@ nav li a:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .flex {
@@ -526,7 +526,7 @@ nav li a:focus {
 }
 
 .bott.link {
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
 
 .paragraph-footer {
@@ -537,6 +537,7 @@ nav li a:focus {
     font-size: 16px;
     line-height: 1.11;
     /* margin-bottom: 16px; */
+    margin-top: 0;
 }
 
 .soc-footer-p {
