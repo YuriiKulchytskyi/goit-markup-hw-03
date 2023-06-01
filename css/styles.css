@@ -505,7 +505,7 @@ nav li a:focus {
 .footer a {
     display: inline-block;
     /* flex-direction: row; */
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
 }
 
 .bott {
@@ -516,6 +516,7 @@ nav li a:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--brand-color);
+    margin-bottom: 16px;
 }
 
 .flex {
@@ -624,7 +625,7 @@ nav li a:focus {
 }
 
 .port {
-    width: 1136px;
+    width: 1128px;
     display: flex;
     justify-content: center;
     column-gap: 24px;
