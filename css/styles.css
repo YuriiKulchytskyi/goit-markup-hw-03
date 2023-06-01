@@ -268,6 +268,19 @@ nav li a:focus {
     padding: 120px 0;
 }
 
+.hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
 
 .about-list {
     display: flex;
@@ -280,7 +293,7 @@ nav li a:focus {
 
 .about {
     margin-top: 8px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -306,8 +319,8 @@ nav li a:focus {
 }
 
 .about-section {
-    margin-top: 0;
-    margin-bottom: 0;
+    /* margin-top: 0; */
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -490,7 +503,9 @@ nav li a:focus {
 }
 
 .footer a {
-    flex-direction: row;
+    display: inline-block;
+    /* flex-direction: row; */
+    margin-bottom: 16px;
 }
 
 .bott {
@@ -628,7 +643,7 @@ nav li a:focus {
 
 .type {
     margin-right: 0px;
-    /* width: calc((100% - 48px) / 3); */
+    width: calc((100% - 48px) / 3);
     border: 1px solid #E7E9FC;
 }
 
